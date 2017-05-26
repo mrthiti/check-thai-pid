@@ -13,7 +13,7 @@ Check thai personal ID
 
 ## Usage
 
-**Hello World**
+Check thai personal ID
 
 ``` javascript
 const CheckThaiPID = require('check-thai-pid')
