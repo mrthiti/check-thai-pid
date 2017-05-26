@@ -1,6 +1,6 @@
 {
     "name": "check-thai-pid",
-    "version": "1.0.6",
+    "version": "1.0.8",
     "description": "Check thai personal ID",
     "main": "src/check-thai-pid.js",
     "scripts": {
@@ -11,7 +11,7 @@
         "url": "git+https://github.com/thiti-y/check-thai-pid.git"
     },
     "keywords": [
-        "บัตรประจําจัวประชาชน",
+        "บัตรประจําตัวประชาชน",
         "ตรวจสอบเลขประจําตัวประชาชน",
         "Check thai persional ID",
         "PID"
