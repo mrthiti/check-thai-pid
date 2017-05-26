@@ -1,5 +1,8 @@
-module.exports = pid => {
-    const PID = pid.toString()
+module.exports = personalID => {
+
+    if (personalID == null) return false
+
+    const PID = personalID.toString()
 
     if (PID.length != 13) return false
 

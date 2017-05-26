@@ -24,4 +24,8 @@ describe('CheckThaiPID', () => {
     it('PID is not correct(input string not number)', () => {
         expect(CheckThaiPID('test')).to.equal(false)
     })
+    it('PID is not correct(input is null)', () => {
+        expect(CheckThaiPID(null)).to.equal(false)
+        expect(CheckThaiPID()).to.equal(false)
+    })
 })

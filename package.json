@@ -1,6 +1,6 @@
 {
     "name": "check-thai-pid",
-    "version": "1.0.3",
+    "version": "1.0.6",
     "description": "Check thai personal ID",
     "main": "src/check-thai-pid.js",
     "scripts": {
