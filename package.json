@@ -4,7 +4,8 @@
     "description": "Check thai personal ID",
     "main": "src/check-thai-pid.js",
     "scripts": {
-        "test": "mocha"
+        "test": "mocha --recursive test/",
+        "dev": "mocha -w --recursive test/"
     },
     "repository": {
         "type": "git",
@@ -23,7 +24,12 @@
     },
     "homepage": "http://www.thitiblog.com",
     "devDependencies": {
+        "babel-eslint": "^8.0.2",
         "chai": "^3.5.0",
-        "mocha": "^3.1.2"
+        "eslint": "^4.12.0",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-mocha": "^4.11.0",
+        "mocha": "^4.0.1"
     }
 }
