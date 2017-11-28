@@ -27,6 +27,8 @@
         "argsIgnorePattern": "next"
       }
     ],
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "no-bitwise": 0,
+    "no-mixed-operators": 0
   }
 }
