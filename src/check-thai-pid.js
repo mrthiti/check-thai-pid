@@ -1,4 +1,4 @@
-module.exports = (pid = false) => {
+module.exports = pid => {
   if (!pid) return false
 
   const PID = pid.toString()
