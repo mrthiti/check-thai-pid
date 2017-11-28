@@ -24,6 +24,7 @@
     },
     "homepage": "http://www.thitiblog.com",
     "devDependencies": {
+        "babel-eslint": "^8.0.2",
         "chai": "^3.5.0",
         "eslint": "^4.12.0",
         "eslint-config-airbnb": "^16.1.0",
