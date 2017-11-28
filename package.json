@@ -4,7 +4,7 @@
     "description": "Check thai personal ID",
     "main": "src/check-thai-pid.js",
     "scripts": {
-        "test": "mocha"
+        "test": "mocha --recursive test/"
     },
     "repository": {
         "type": "git",
