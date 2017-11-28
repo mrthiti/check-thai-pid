@@ -34,4 +34,8 @@ describe('CheckThaiPID', () => {
     expect(checkThaiPID(null)).to.equal(false)
     expect(checkThaiPID()).to.equal(false)
   })
+
+  it('PID is not correct(input is undefined)', () => {
+    expect(checkThaiPID(undefined)).to.equal(false)
+  })
 })
