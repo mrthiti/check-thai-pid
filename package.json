@@ -1,6 +1,6 @@
 {
     "name": "check-thai-pid",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "Check thai personal ID",
     "main": "src/check-thai-pid.js",
     "scripts": {
@@ -22,7 +22,7 @@
     "bugs": {
         "url": "https://github.com/thiti-y/check-thai-pid/issues"
     },
-    "homepage": "http://www.thitiblog.com",
+    "homepage": "http://www.thiti.dev",
     "devDependencies": {
         "babel-eslint": "^8.0.2",
         "chai": "^3.5.0",
